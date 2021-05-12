@@ -1,4 +1,5 @@
-# q2_business_rev
+# Quarter 2 Business Review
+
 Sales Data BI project using using Excel and MySQL for data cleaning and modelling and PowerBI for visualization
 
 This project is meant to demonstrate data manipulation skills necessary for Business Intelligence and Data Analyst roles, such as planning, data cleansing, modelling and visualization using industry-standard tools such as MS Excel, MySQL and Power BI. 
@@ -7,7 +8,7 @@ The subject dataset belongs to Olist (a Brazilian online retailer) and is made u
 
 Project Walkthrough:
 
-# 1. Business Request
+## 1. Business Request
 
 Visual representation of Quarter 2 2018 Sales
 
@@ -19,17 +20,17 @@ As a local Sales Manager (assigned to a specific country state), I want to know 
 
 As a Product Specialist, I want to see how different product categories have been relating to one another on a weekly basis so that I can find any trends and colaborate with other Product Specialists on the possibility of improving product rollout
 
-# 2. Data Overview & Planning
+## 2. Data Overview & Planning
 
 Our dataset is comprised of 11 csv files, that can be accessed through [this link](https://www.kaggle.com/olistbr/brazilian-ecommerce).
 A quick glance at the .csv files using Notepad and we are able to map the table and column information and how they relate with each other.
 
 (SEE EXCEL FILE)
 
-# 3. Data Cleaning
+## 3. Data Cleaning
 
-# 4. Data Modelling
+## 4. Data Modelling
 
-# 5. Data Visualization
+## 5. Data Visualization
 
-# 6. Insights
+## 6. Insights
