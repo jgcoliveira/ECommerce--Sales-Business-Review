@@ -1,8 +1,9 @@
 # q2_business_rev
 Sales Data BI project using using Excel and MySQL for data cleaning and modelling and PowerBI for visualization
 
-This project is meant to demonstrate data manipulation skills necessary for Business Intelligence and Data Analyst roles
-The data present on this project belongs to Olist (a Brazilian online retailer) and is made up of several tables describing information related with online orders between September 2016 and October 2018.
+This project is meant to demonstrate data manipulation skills necessary for Business Intelligence and Data Analyst roles, such as planning, data cleansing, modelling and visualization using industry-standard tools such as MS Excel, MySQL and Power BI. 
+
+The subject dataset belongs to Olist (a Brazilian online retailer) and is made up of several tables describing information related with online orders between September 2016 and October 2018.
 
 Project Walkthrough:
 
@@ -20,8 +21,10 @@ As a Product Specialist, I want to see how different product categories have bee
 
 # 2. Data Overview & Planning
 
-A quick 
+Our dataset is comprised of 11 csv files.
+We can give a quick glance an the raw data and be able to map the table and column information and how they relate with each other.
 
+(SEE EXCEL FILE)
 
 # 3. Data Cleaning
 
