@@ -23,18 +23,18 @@ As a Product Specialist, I want to see how different product categories have bee
 ## 2. Data Preparation & Planning
 
 Our dataset is comprised of 11 csv files that can be accessed through [this link](https://www.kaggle.com/olistbr/brazilian-ecommerce).
-A quick glance at the .csv files using Notepad and we are able to map the table and column information and how they relate with each other.
+A quick glance at the .csv files using Notepad and we are able to learn more about the data, map the table and column information and plan how the tables will relate with each other.
 
 |CUSTOMERS               |
 | ---------------------- |
-|customer_id             |
+|**customer_id**         |
 |customer_unique_id      |
 |customer_zip_code_prefix|
 |customer_city           |
 |customer_state          |
 
 
-(SEE EXCEL FILE)
+
 
 ## 3. Data Cleaning
 
