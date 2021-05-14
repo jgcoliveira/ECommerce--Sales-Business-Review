@@ -63,16 +63,16 @@ Now that we have our data stored in mySQL, we can begin to analyse each table by
 
 Our goal is to visualize sales numbers troughout time and according to location and product category.
 To that effect, we will need to use the following tables:
-orders
-order_items
-products
-product_category_name_translation
-
+- orders
+- order_items
+- products
+- product_category_name_translation
+Since we want to filter the sales data by state, but only have the state codes, we need to find a table that can provide all the Brazilian states' full names. A quick online search and we are able to find [one](https://en.wikipedia.org/wiki/Federative_units_of_Brazil).
 
 1. Connect PowerBI to desired MySQL server and database;
 2. Choose the tables to import;
 3. Using PowerQuery, rename the tables and categorize them (Dim or Fact), review the table data, rename the useful columns, delete the unacessary ones;
-4. In order to be able to filter data using the full names of all the Brazilian States, connect PowerBI to the following [link](https://en.wikipedia.org/wiki/Federative_units_of_Brazil)
+4. In order to be able to filter data using the full names of all the Brazilian States, connect PowerBI to the following link
 5. Select the desired table to be used
 6. Set up the correct datatypes and properties for each column
 
