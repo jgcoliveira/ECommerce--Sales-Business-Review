@@ -53,7 +53,9 @@ We can proceed to creating the tables and uploading the data from the .csv files
 
 ## 4. Data Cleaning
 
-Now that we have our data stored in mySQL, we can begin to analyse each table 1 by 1 and figure out the business context, search for inconsistencies and data errors, and take the appropriate corrective measures.
+Now that we have our data stored in mySQL, we can begin to analyse each table by:
+1. understanding the business context by assessing the logical relationships between data in different columns;
+2. Searching for inconsistencies and data errors, then taking the appropriate corrective measures.
 
 (LISTAR CADA TABLE E ABORDAGEM?)
 
