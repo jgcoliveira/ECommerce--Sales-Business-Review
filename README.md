@@ -59,7 +59,7 @@ Now that we have our data stored in mySQL, we can begin to analyse each table by
 
 (LISTAR CADA TABLE E ABORDAGEM?)
 
-## 5. Data Modeling and Visualization
+## 5. Data Modeling and Visualization using Power BI
 
 Our goal is to visualize sales numbers troughout time and according to location and product category.
 To that effect, we will need to use the following tables:
@@ -69,6 +69,7 @@ To that effect, we will need to use the following tables:
 - product_category_name_translation
 Since we want to filter the sales data by state, but only have the state codes, we need to find a table that can provide all the Brazilian states' full names. A quick online search and we are able to find [one](https://en.wikipedia.org/wiki/Federative_units_of_Brazil).
 
+Now that we have a clear strategy, we are ready to start using Power BI. We will perform the following steps:
 1. Connect PowerBI to desired MySQL server and database;
 2. Choose the tables to import;
 3. Using PowerQuery, rename the tables and categorize them (Dim or Fact), review the table data, rename the useful columns, delete the unacessary ones;
