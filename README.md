@@ -1,5 +1,6 @@
 # Quarter 2 Business Review
 
+### Goal
 Sales Data BI project using using Excel and MySQL for data cleaning and modelling and PowerBI for visualization
 
 This project is meant to demonstrate data manipulation skills necessary for Business Intelligence and Data Analyst roles, such as planning, data cleansing, modelling and visualization using industry-standard tools such as MS Excel, MySQL and Power BI. 
@@ -33,16 +34,21 @@ A quick glance at the .csv files using Notepad and we are able to learn more abo
 |customer_city           |
 |customer_state          |
 
+(INSERIR RESTO DAS TABELAS?)
+
 We now have visibility over the column names and respective datatypes, and can therefore proceed to store the data in MySQL using MySQL Worbench.
 The storing process begins by creating a dedicated SQL Schema. Afterwards, we will create all the tables necessary for our analysis by defining their columns and respective datatypes, and then upload the data from the .csv files.
 
 At the same time, we evaluate the uniqueness of every row, as well as the business context of the data, in order to define the primary keys for each table
 
-![Olist_create_upload_order_items_1](https://user-images.githubusercontent.com/78386715/118306324-308b2a00-b4e1-11eb-9558-6b82550eb936.PNG)
+(INSERIR IMAGEM)
+(ORDERS É UM BOM EXEMPLO)
 
-We can proceed to creating the tables and uploading the data from the .csv files into their designated SQL tables
+We can proceed to creating the tables and uploading the data from the .csv files into their designated SQL tables.
 
 ## 3. Data Cleaning
+
+
 
 ## 4. Data Modelling
 
