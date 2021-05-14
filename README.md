@@ -10,11 +10,11 @@ The subject dataset belongs to Olist (a Brazilian online retailer) and is made u
 
 ### Summary
 * [1. Business Request](#1.-business-request)
-* [2. Planning & Data Preparation](2.-planning-&-data-preparation)
-* [3. Data Loading and Modelling using MySQL](3.-data-loading-and-modelling-using-mysql)
-* [4. Data Cleaning using MySQL](4.-data-cleaning-using-mysql)
-* [5. Data Modeling and Visualization using Power BI](5.-data-modeling-and-visualization-using-power-bi)
-* [6. Insights](6.-insights)
+* [2. Planning & Data Preparation](#2.-planning-&-data-preparation)
+* [3. Data Loading and Modelling using MySQL](#3.-data-loading-and-modelling-using-mysql)
+* [4. Data Cleaning using MySQL](#4.-data-cleaning-using-mysql)
+* [5. Data Modeling and Visualization using Power BI](#5.-data-modeling-and-visualization-using-power-bi)
+* [6. Insights](#6.-insights)
 
 
 ## 1. Business Request
