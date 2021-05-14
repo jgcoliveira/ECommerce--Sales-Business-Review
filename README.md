@@ -9,7 +9,12 @@ This project is meant to demonstrate data manipulation skills necessary for Busi
 The subject dataset belongs to Olist (a Brazilian online retailer) and is made up of several tables describing information related with online orders between September 2016 and October 2018.
 
 ### Summary
-* [Business Request](#1.-business-request)
+* [1. Business Request](#1.-business-request)
+* [2. Planning & Data Preparation](2.-planning-&-data-preparation)
+* [3. Data Loading and Modelling using MySQL](3.-data-loading-and-modelling-using-mysql)
+* [4. Data Cleaning using MySQL](4.-data-cleaning-using-mysql)
+* [5. Data Modeling and Visualization using Power BI](5.-data-modeling-and-visualization-using-power-bi)
+* [6. Insights](6.-insights)
 
 
 ## 1. Business Request
