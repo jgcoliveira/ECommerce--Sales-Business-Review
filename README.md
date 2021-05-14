@@ -39,7 +39,7 @@ A quick glance at the .csv files using Notepad and we are able to learn more abo
 
 We now have visibility over the column names and respective datatypes, and can therefore proceed to store the data in MySQL using MySQL Worbench.
 
-## 3. Data Loading and Modelling
+## 3. Data Loading and Modelling using MySQL
 The storing process begins by creating a dedicated SQL Schema. Afterwards, we will create all the tables necessary for our analysis by defining their columns and respective datatypes, and then upload the data from the .csv files, as seen on this SQL script (INSERIR LINK PARA SCRIPT)
 
 At the same time, we evaluate the uniqueness of every row, as well as the business context of the data, in order to define the primary keys for each table
@@ -51,7 +51,7 @@ We can proceed to creating the tables and uploading the data from the .csv files
 
 (FOREIGN KEYS)
 
-## 4. Data Cleaning
+## 4. Data Cleaning using MySQL
 
 Now that we have our data stored in mySQL, we can begin to analyse each table by:
 1. Understanding the business context by assessing the logical relationships between data in different columns;
@@ -59,14 +59,22 @@ Now that we have our data stored in mySQL, we can begin to analyse each table by
 
 (LISTAR CADA TABLE E ABORDAGEM?)
 
-## 5. Data Visualization
+## 5. Data Modeling and Visualization
+
+Our goal is to visualize sales numbers troughout time and according to location and product category.
+To that effect, we will need to use the following tables:
+orders
+order_items
+products
+product_category_name_translation
+
 
 1. Connect PowerBI to desired MySQL server and database;
-1.1. Choose the tables to import;
-1.2. Using PowerQuery, rename the tables and categorize them (Dim or Fact), review the table data, rename the useful columns, delete the unacessary ones;
-2. In order to be able to filter data using the full names of all the Brazilian States, connect PowerBI to the following [link](https://en.wikipedia.org/wiki/Federative_units_of_Brazil)
-2.1. Select the desired table to be used
-3. Set up the correct datatypes and properties for each column
+2. Choose the tables to import;
+3. Using PowerQuery, rename the tables and categorize them (Dim or Fact), review the table data, rename the useful columns, delete the unacessary ones;
+4. In order to be able to filter data using the full names of all the Brazilian States, connect PowerBI to the following [link](https://en.wikipedia.org/wiki/Federative_units_of_Brazil)
+5. Select the desired table to be used
+6. Set up the correct datatypes and properties for each column
 
 Using the Model view, create the data model by establishing relationships between columns from different tables
 
