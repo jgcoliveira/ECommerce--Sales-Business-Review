@@ -8,7 +8,9 @@ This project is meant to demonstrate data manipulation skills necessary for Busi
 
 The subject dataset belongs to Olist (a Brazilian online retailer) and is made up of several tables describing information related with online orders between September 2016 and October 2018.
 
-Project Walkthrough:
+### Summary
+* [Business Request](#1. Business Request)
+
 
 ## 1. Business Request
 
