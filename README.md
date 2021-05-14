@@ -20,7 +20,7 @@ As a local Sales Manager (assigned to a specific country state), I want to know 
 
 As a Product Specialist, I want to see how different product categories have been relating to one another on a weekly basis so that I can find any trends and colaborate with other Product Specialists on the possibility of improving product rollout
 
-## 2. Data Preparation & Planning
+## 2. Planning & Data Preparation
 
 Our dataset is comprised of 11 csv files that can be accessed through [this link](https://www.kaggle.com/olistbr/brazilian-ecommerce).
 A quick glance at the .csv files using Notepad and we are able to learn more about the data, map the table and column information and plan how the tables will relate with each other.
@@ -33,8 +33,14 @@ A quick glance at the .csv files using Notepad and we are able to learn more abo
 |customer_city           |
 |customer_state          |
 
+We now have visibility over the column names and respective datatypes, and can therefore proceed to store the data in MySQL using MySQL Worbench.
+The storing process begins by creating a dedicated SQL Schema. Afterwards, we will create all the tables necessary for our analysis by defining their columns and respective datatypes, and then upload the data from the .csv files.
 
+At the same time, we evaluate the uniqueness of every row, as well as the business context of the data, in order to define the primary keys for each table
 
+![Olist_create_upload_order_items_1](https://user-images.githubusercontent.com/78386715/118306324-308b2a00-b4e1-11eb-9558-6b82550eb936.PNG)
+
+We can proceed to creating the tables and uploading the data from the .csv files into their designated SQL tables
 
 ## 3. Data Cleaning
 
