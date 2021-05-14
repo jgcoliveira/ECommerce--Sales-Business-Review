@@ -62,10 +62,10 @@ Now that we have our data stored in mySQL, we can begin to analyse each table by
 ## 5. Data Visualization
 
 1. Connect PowerBI to desired MySQL server and database;
-1.1 Choose the tables to import;
-1.2 Using PowerQuery, rename the tables and categorize them (Dim or Fact), review the table data, rename the useful columns, delete the unacessary ones;
+1.1. Choose the tables to import;
+1.2. Using PowerQuery, rename the tables and categorize them (Dim or Fact), review the table data, rename the useful columns, delete the unacessary ones;
 2. In order to be able to filter data using the full names of all the Brazilian States, connect PowerBI to the following [link](https://en.wikipedia.org/wiki/Federative_units_of_Brazil)
-2.1 Select the desired table to be used
+2.1. Select the desired table to be used
 3. Set up the correct datatypes and properties for each column
 
 Using the Model view, create the data model by establishing relationships between columns from different tables
