@@ -36,7 +36,8 @@ As a Product Specialist, I want to see how different product categories have bee
 
 ## 2. Planning & Data Preparation
 
-Our dataset is comprised of 11 csv files that can be accessed through [this link](https://www.kaggle.com/olistbr/brazilian-ecommerce).
+Our dataset is comprised of 11 csv files that can be accessed through [this link](https://www.kaggle.com/olistbr/brazilian-ecommerce). Along with the csv files, the link also contains some data context, along with the data schema that we will use to create relationships between our datasets.
+![image](https://user-images.githubusercontent.com/78386715/118380480-f05ba280-b5d9-11eb-9ac3-2e209c815afc.png)
 A quick glance at the .csv files using Notepad and we are able to learn more about the data, map the table and column information and plan how the tables will relate with each other.
 
 |CUSTOMERS               |
