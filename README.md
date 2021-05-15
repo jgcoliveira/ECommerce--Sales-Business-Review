@@ -1,6 +1,6 @@
 # Quarter 2 Sales Business Review
 
-Sales Data BI project using using Excel and MySQL 8.0 for data cleaning and modelling and PowerBI for visualization
+**Sales Data BI project using using Excel and MySQL 8.0 for data cleaning and modelling and PowerBI for visualization**
 
 ### Goal
 
