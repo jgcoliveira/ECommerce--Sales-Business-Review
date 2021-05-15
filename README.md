@@ -28,7 +28,7 @@ Our data processing will be done to cater to several fictional stakeholders requ
 
 User Stories:
 
-As a Director of Sales, I want to know how much we have sold this Q2, compared to the previous year and previous Q1, so that I can know if the new marketing strategies applied this quarter have been effective. I also want which states and product categories have the most shipped orders, and if there are any trends.
+As a Director of Sales, I want to know how much we have sold this Q2, compared to the previous year and previous Q1, so that I can know if the new marketing strategies applied this quarter have had an overall impact on sales. I also want which states and product categories have the most shipped orders, and if there are any trends.
 
 As a local Sales Manager (assigned to a specific country state), I want to know about my state's sales volume, how it compares with other states and what product categories have sold the most, so that I can learn about my state's product category preferences, and share possible insights with other Sales Managers.
 
