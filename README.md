@@ -24,7 +24,7 @@ The subject dataset belongs to Olist (a Brazilian E-Commerce website) and is mad
 
 ## 1. Business Request
 
-Visual representation of Quarter 2 2018 Sales
+Our data processing will be done to cater to several fictional stakeholders requests. 
 
 User Stories:
 
