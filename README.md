@@ -16,6 +16,11 @@ The subject dataset belongs to Olist (a Brazilian online retailer) and is made u
 * [5. Data Modeling and Visualization using Power BI](##5.-data-modeling-and-visualization-using-power-bi)
 * [6. Insights](##6.-insights)
 
+### Technologies
+
+- MS Excel
+- MySQL 8.0
+- PowerBI  2.93.641.0
 
 ## 1. Business Request
 
