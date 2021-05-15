@@ -19,8 +19,8 @@ The subject dataset belongs to Olist (a Brazilian E-Commerce website) and is mad
 ### Technologies
 
 - MS Excel
+- MS PowerBI  2.93.641.0
 - MySQL 8.0
-- PowerBI  2.93.641.0
 
 ## 1. Business Request
 
