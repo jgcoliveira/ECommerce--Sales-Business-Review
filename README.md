@@ -57,8 +57,7 @@ The storing process begins by creating a dedicated SQL Schema. Afterwards, we wi
 
 At the same time, we evaluate the uniqueness of every row, as well as the business context of the data, in order to define the primary keys for each table
 
-(INSERIR IMAGEM)
-(ORDERS É UM BOM EXEMPLO)
+https://github.com/jgcoliveira/q2_business_rev/blob/c7986839b35e1810de3d3b3cd8edb925bafcb436/mysql%20script/olist_table_creation_upload.sql#L71
 
 We can proceed to creating the tables and uploading the data from the .csv files into their designated SQL tables.
 
