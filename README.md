@@ -60,6 +60,8 @@ The storing process begins by creating a dedicated SQL Schema. Afterwards, we wi
 
 At the same time, we evaluate the uniqueness of every row, as well as the business context of the data, in order to define the primary keys for each table.
 
+We can proceed to creating the tables and uploading the data from the .csv files into their designated SQL tables, as seen on the example below:
+
 ```mysql
 -- ORDER PAYMENTS TABLE
 
@@ -82,9 +84,12 @@ LINES TERMINATED BY "\r\n" -- all fields are terminated by ",", including the la
 IGNORE 1 ROWS;
 ```
 
-We can proceed to creating the tables and uploading the data from the .csv files into their designated SQL tables.
+After all the tables have been created and the raw data inserted, we can create relationships between the tables by defining foreign keys, as exemplified by the code snippet below from [this script](https://github.com/jgcoliveira/q2_business_rev/blob/407e92c92f215c1c50bbe6c4a6ad454fff9a757e/mysql%20script/olist_foreign_keys.sql):
 
-(FOREIGN KEYS)
+```mysql
+ALTER TABLE order_payments
+ADD FOREIGN KEY (order_id) REFERENCES orders(order_id);
+```
 
 ## 4. Data Cleaning using MySQL
 
@@ -92,7 +97,53 @@ Now that we have our data stored in mySQL, we can begin to analyse each table by
 1. Understanding the business context by assessing the logical relationships between data in different columns;
 2. Searching for inconsistencies and data errors, then taking the appropriate corrective measures.
 
-(LISTAR CADA TABLE E ABORDAGEM?)
+The following code snippet exemplifies this approach:
+```mysql
+-- ...........................
+-- ORDER ITEMS          ......--------------------------------------------------------------------------------------------------------------------------------
+-- ...........................
+
+-- no column has NULL values
+
+-- Let's check for order items without any associated customer_id on the orders table 
+SELECT oi.order_id, oi.order_item_id, oi.product_id, o.customer_id
+FROM order_items oi
+LEFT JOIN orders o
+	ON oi.order_id = o.order_id
+HAVING o.customer_id IS NULL;
+
+-- all order_items have an associated order_id and customer_id on the orders table
+
+-- Let's check if there are any orders without order_items order_id
+SELECT o.order_id, o.order_status
+FROM orders o 
+WHERE o.order_id NOT IN ( -- all o.order_id that do not have a order_items record
+	SELECT oi.order_id 
+	FROM order_items oi
+);
+
+-- we can see that most orders records without a order_items record have "cancelled", "unavailable" status.
+-- Let's group by status in order to have better visibility
+
+SELECT o.order_status, COUNT(o.order_status)
+FROM orders o 
+WHERE o.order_id NOT IN ( -- all o.order_id that do not have a order_items record
+	SELECT oi.order_id 
+	FROM order_items oi
+)
+GROUP BY o.order_status;
+
+-- we can conclude that order_status "unavailable", "canceled", "invoiced", "created" usually do not have a order_items record.
+-- However, there is a "shipped" orders record that does not have the necessary order_items record. We can delve deeper and find the order_id 
+
+SELECT *
+FROM orders o 
+WHERE o.order_id NOT IN ( -- all o.order_id that do not have a order_items record
+	SELECT oi.order_id 
+	FROM order_items oi
+)
+HAVING order_status = "shipped";
+```
 
 ## 5. Data Modeling and Visualization using Power BI
 
@@ -118,6 +169,7 @@ Now that we have a clear strategy, we are ready to start using Power BI. We will
 We will answer the different business requests by looking at the Power BI graphics
 
 Overview - Comparing to the previous year Q2, Q2 2018 had a significant increase on overall sales, but just a (inserir valor) increase compared to the previous Q1.
+
 
 State - A sales manager can choose its designated area, see the monthly sales evolution, find which Product Categories have sold the most, and in which state are the orders located.
 
