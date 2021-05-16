@@ -32,10 +32,6 @@ User Stories:
 
 *As a local Sales Manager (assigned to a specific country state), **I want to know about my state's sales volume, how it compares and relates with other states and what product categories have sold the most**, so that I can learn about my state's product category preferences, and share possible insights with other Sales Managers.*
 
-(SELLERS OUT OF STATE)
-
-(DELIVERY PERFORMANCE)
-
 ## 2. Planning & Data Preparation
 
 Our dataset is comprised of 11 csv files that can be accessed through [this link](https://www.kaggle.com/olistbr/brazilian-ecommerce). Along with the csv files, the link also contains some data context, along with the data schema that we will use to create relationships between our datasets.
@@ -50,8 +46,6 @@ A quick glance at the .csv files using Notepad and we are able to learn more abo
 |customer_city           |
 |customer_state          |
 
-(INSERIR RESTO DAS TABELAS?)
-
 We now have visibility over the column names and respective datatypes, and can therefore proceed to store the data in MySQL using MySQL Worbench.
 
 ## 3. Data Loading and Modelling using MySQL
@@ -64,9 +58,6 @@ We can proceed to creating the tables and uploading the data from the .csv files
 
 ```mysql
 -- ORDER PAYMENTS TABLE
-
--- using Excel's pivot table function, we can assess that for every order_id there is a payment_sequential.
--- Therefore, we shall create a composite key using use order_id and order_item_id 
 
 CREATE TABLE order_payments (
 order_id VARCHAR(40) NOT NULL,
@@ -84,7 +75,7 @@ LINES TERMINATED BY "\r\n" -- all fields are terminated by ",", including the la
 IGNORE 1 ROWS;
 ```
 
-After all the tables have been created and the raw data inserted, we can create relationships between the tables by defining foreign keys, as exemplified by the code snippet below from [this script](https://github.com/jgcoliveira/q2_business_rev/blob/407e92c92f215c1c50bbe6c4a6ad454fff9a757e/mysql%20script/olist_foreign_keys.sql):
+After all the tables have been created and the raw data loaded, we can create relationships between the tables by defining foreign keys, as exemplified by the code snippet below from [this script](https://github.com/jgcoliveira/q2_business_rev/blob/407e92c92f215c1c50bbe6c4a6ad454fff9a757e/mysql%20script/olist_foreign_keys.sql):
 
 ```mysql
 ALTER TABLE order_payments
@@ -100,7 +91,7 @@ Now that we have our data stored in mySQL, we can begin to analyse each table by
 The following code snippet exemplifies this approach:
 ```mysql
 -- ...........................
--- ORDER ITEMS          ......--------------------------------------------------------------------------------------------------------------------------------
+-- ORDER ITEMS          ......
 -- ...........................
 
 -- no column has NULL values
@@ -168,8 +159,7 @@ Now that we have a clear strategy, we are ready to start using Power BI. We will
 
 We will answer the different business requests by looking at the Power BI graphics
 
-Overview - Comparing to the previous year Q2, Q2 2018 had a significant increase on overall sales, but just a (inserir valor) increase compared to the previous Q1.
-
+Overview - Comparing to the previous year Q2, Q2 2018 had a significant increase on overall sales, but just a (INSERIR VALOR) increase compared to the previous Q1.
 
 State - A sales manager can choose its designated area, see the monthly sales evolution, find which Product Categories have sold the most, and in which state are the orders located.
 
