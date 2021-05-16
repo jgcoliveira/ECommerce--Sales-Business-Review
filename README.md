@@ -60,7 +60,7 @@ The storing process begins by creating a dedicated SQL Schema. Afterwards, we wi
 
 At the same time, we evaluate the uniqueness of every row, as well as the business context of the data, in order to define the primary keys for each table.
 
-"""mysql
+```mysql
 -- ORDER PAYMENTS TABLE
 
 -- using Excel's pivot table function, we can assess that for every order_id there is a payment_sequential.
@@ -80,7 +80,7 @@ INTO TABLE order_payments
 FIELDS TERMINATED BY ","
 LINES TERMINATED BY "\r\n" -- all fields are terminated by ",", including the last column. \r must be included.
 IGNORE 1 ROWS;
-"""
+```
 
 We can proceed to creating the tables and uploading the data from the .csv files into their designated SQL tables.
 
