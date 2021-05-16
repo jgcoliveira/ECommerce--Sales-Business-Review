@@ -55,7 +55,7 @@ A quick glance at the .csv files using Notepad and we are able to learn more abo
 We now have visibility over the column names and respective datatypes, and can therefore proceed to store the data in MySQL using MySQL Worbench.
 
 ## 3. Data Loading and Modelling using MySQL
-The storing process begins by creating a dedicated SQL Schema. Afterwards, we will create all the tables necessary for our analysis by defining their columns and respective datatypes, and then upload the data from the .csv files, as seen on this SQL script (INSERIR LINK PARA SCRIPT)
+The storing process begins by creating a dedicated SQL Schema. Afterwards, we will create all the tables necessary for our analysis by defining their columns and respective datatypes, and then upload the data from the .csv files, as seen on this [SQL script](https://github.com/jgcoliveira/q2_business_rev/blob/46c46ac27829aeb11793fa5c342c4dd868d26f24/mysql%20script/olist_table_creation_upload.sql).
 
 At the same time, we evaluate the uniqueness of every row, as well as the business context of the data, in order to define the primary keys for each table
 
