@@ -84,15 +84,21 @@ To that effect, we will need to use the following tables:
 Since we want to filter the sales data by state, but only have the state codes, we need to find a table that can provide all the Brazilian states' full names. A quick online search and we are able to find [one](https://en.wikipedia.org/wiki/Federative_units_of_Brazil).
 
 Now that we have a clear strategy, we are ready to start using Power BI. We will perform the following steps:
-1. Connect PowerBI to desired MySQL server and database;
-2. Choose the tables to import;
-3. Using PowerQuery, rename the tables and categorize them (Dim or Fact), review the table data, rename the useful columns, delete the unacessary ones;
-4. In order to be able to filter data using the full names of all the Brazilian States, connect PowerBI to the following [link](https://en.wikipedia.org/wiki/Federative_units_of_Brazil)
-5. Select the desired table to be used
-6. Set up the correct datatypes and properties for each column
+1. Connect PowerBI to desired MySQL server and database, and choose the tables we need to import;
+2. Using PowerQuery, rename the tables and categorize them (Dim or Fact), review the table data, rename the useful columns and delete the unacessary ones;
+3. In order to be able to filter data using the full names of all the Brazilian States, connect PowerBI to the following [link](https://en.wikipedia.org/wiki/Federative_units_of_Brazil) and select the "states list" table;
+4. Set up the correct datatypes and properties for each column;
+5. Using the Model view, create the data model by establishing relationships between columns from different tables;
+6. Set up the visualization graphics that best present the information we want to convey;
+7. Create the necessary auxiliar columns and DAX expressions.
 
-Using the Model view, create the data model by establishing relationships between columns from different tables
+## 6. Dashboard Review & Insights
 
+We will answer the different business requests by looking at the Power BI graphics
 
+Overview - Comparing to the previous year Q2, Q2 2018 had a significant increase on overall sales, but just a (inserir valor) increase compared to the previous Q1.
 
-## 6. Insights
+State - A sales manager can choose its designated area, see the monthly sales evolution, find which Product Categories have sold the most, and in which state are the orders located.
+
+In order to decrease shipping times and improve customer satisfaction, the sales manager can look at the orders sellers map, see where orders are low and raise new sellers in those neighbouring states. 
+
