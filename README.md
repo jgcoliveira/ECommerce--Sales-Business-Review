@@ -30,7 +30,7 @@ User Stories:
 
 *As a Director of Sales, I want to know **how much we have sold this Q2, compared to the previous year and previous Q1**, so that I can know if the new marketing strategies applied this quarter have had an overall impact on sales.*
 
-*As a local Sales Manager (assigned to a specific country state), **I want to know about my state's sales volume, how it compares with other states and what product categories have sold the most**, so that I can learn about my state's product category preferences, and share possible insights with other Sales Managers.*
+*As a local Sales Manager (assigned to a specific country state), **I want to know about my state's sales volume, how it compares and relates with other states and what product categories have sold the most**, so that I can learn about my state's product category preferences, and share possible insights with other Sales Managers.*
 
 (SELLERS OUT OF STATE)
 
@@ -87,7 +87,7 @@ Now that we have a clear strategy, we are ready to start using Power BI. We will
 1. Connect PowerBI to desired MySQL server and database;
 2. Choose the tables to import;
 3. Using PowerQuery, rename the tables and categorize them (Dim or Fact), review the table data, rename the useful columns, delete the unacessary ones;
-4. In order to be able to filter data using the full names of all the Brazilian States, connect PowerBI to the following link
+4. In order to be able to filter data using the full names of all the Brazilian States, connect PowerBI to the following [link](https://en.wikipedia.org/wiki/Federative_units_of_Brazil)
 5. Select the desired table to be used
 6. Set up the correct datatypes and properties for each column
 
