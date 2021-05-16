@@ -55,11 +55,32 @@ A quick glance at the .csv files using Notepad and we are able to learn more abo
 We now have visibility over the column names and respective datatypes, and can therefore proceed to store the data in MySQL using MySQL Worbench.
 
 ## 3. Data Loading and Modelling using MySQL
+
 The storing process begins by creating a dedicated SQL Schema. Afterwards, we will create all the tables necessary for our analysis by defining their columns and respective datatypes, and then upload the data from the .csv files, as seen on this [SQL script](https://github.com/jgcoliveira/q2_business_rev/blob/46c46ac27829aeb11793fa5c342c4dd868d26f24/mysql%20script/olist_table_creation_upload.sql).
 
-At the same time, we evaluate the uniqueness of every row, as well as the business context of the data, in order to define the primary keys for each table
+At the same time, we evaluate the uniqueness of every row, as well as the business context of the data, in order to define the primary keys for each table.
 
-https://github.com/jgcoliveira/q2_business_rev/blob/c7986839b35e1810de3d3b3cd8edb925bafcb436/mysql%20script/olist_table_creation_upload.sql#L71
+"""mysql
+-- ORDER PAYMENTS TABLE
+
+-- using Excel's pivot table function, we can assess that for every order_id there is a payment_sequential.
+-- Therefore, we shall create a composite key using use order_id and order_item_id 
+
+CREATE TABLE order_payments (
+order_id VARCHAR(40) NOT NULL,
+ payment_sequential INT NOT NULL,
+ payment_type VARCHAR(20) NOT NULL,
+ payment_installments INT NOT NULL,
+payment_value DECIMAL(8,2) NOT NULL,
+PRIMARY KEY (order_id, payment_sequential)
+);
+
+LOAD DATA INFILE "C:/Program Files/MySQL/MySQL Server 8.0/Raw Data/Olist/olist_order_payments_dataset.csv"
+INTO TABLE order_payments	
+FIELDS TERMINATED BY ","
+LINES TERMINATED BY "\r\n" -- all fields are terminated by ",", including the last column. \r must be included.
+IGNORE 1 ROWS;
+"""
 
 We can proceed to creating the tables and uploading the data from the .csv files into their designated SQL tables.
 
