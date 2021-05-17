@@ -38,14 +38,6 @@ Our dataset is comprised of 11 csv files that can be accessed through [this link
 ![image](https://user-images.githubusercontent.com/78386715/118380480-f05ba280-b5d9-11eb-9ac3-2e209c815afc.png)
 A quick glance at the .csv files using Notepad and we are able to learn more about the data, map the table and column information and plan how the tables will relate with each other.
 
-|CUSTOMERS               |
-| ---------------------- |
-|**customer_id**         |
-|customer_unique_id      |
-|customer_zip_code_prefix|
-|customer_city           |
-|customer_state          |
-
 We now have visibility over the column names and respective datatypes, and can therefore proceed to store the data in MySQL using MySQL Worbench.
 
 ## 3. Data Loading and Modelling using MySQL
