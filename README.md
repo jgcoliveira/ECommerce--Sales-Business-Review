@@ -159,10 +159,12 @@ Now that we have a clear strategy, we are ready to start using Power BI. We will
 
 We will answer the different business requests by looking at the Power BI graphics
 
-Overview - Comparing to the previous year Q2, Q2 2018 had a significant increase on overall sales, but just a (INSERIR VALOR) increase compared to the previous Q1.
+Overview - Comparing to the previous year Q2, Q2 2018 had a significant increase on overall sales. We can dive into a specific state and find out more about their Quarter Sales, year sales and which product categories grew the most compared to LY 2017.
+![image](https://user-images.githubusercontent.com/78386715/118489795-27829e80-b715-11eb-8344-9285a3f0d831.png)
 
 State - A sales manager can choose its designated area, see the monthly sales evolution, find which Product Categories have sold the most, and in which state are the orders located.
-![image](https://user-images.githubusercontent.com/78386715/118489062-4f253700-b714-11eb-8768-e667d2dd4cc9.png)
+
+![image](https://user-images.githubusercontent.com/78386715/118489370-aa572980-b714-11eb-9f7d-2b1b214bba02.png)
 
 In order to decrease shipping times and improve customer satisfaction, the sales manager can look at the orders sellers map, see where orders are low and raise new sellers in those neighbouring states. 
 
