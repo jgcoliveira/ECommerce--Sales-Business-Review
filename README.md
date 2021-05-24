@@ -4,7 +4,7 @@
 
 ### Goal
 
-This project is meant to demonstrate data manipulation skills necessary for Business Intelligence and Data Analyst roles, such as planning, data cleansing, modelling and visualization using industry-standard tools such as MS Excel, MySQL and Power BI. 
+This project is meant to demonstrate data manipulation skills necessary for Business Intelligence and Data Analyst roles such as planning, data cleansing and modelling, data analysis and visualization using industry-standard tools such as MS Excel, MySQL and Power BI. 
 
 The subject dataset belongs to Olist (a Brazilian E-Commerce website) and is made up of 100,000 random orders with product, customer and reviews info, spanning from September 2016 and October 2018.
 
