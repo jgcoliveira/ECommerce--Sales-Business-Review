@@ -153,8 +153,7 @@ We will answer the different business requests by looking at the Power BI graphi
 
 Overview - Comparing to the previous year Q2, Q2 2018 had a significant increase on overall sales. We can dive into a specific state and find out more about their Quarter Sales, year sales and which product categories grew the most compared to LY 2017.
 
-![v1 4 overview_1](https://user-images.githubusercontent.com/78386715/119497770-d8fc8200-bd5c-11eb-8928-f810331b1524.PNG)
-
+![v1 4 overview_1](https://user-images.githubusercontent.com/78386715/119498231-4dcfbc00-bd5d-11eb-96de-214ef65e5aae.PNG)
 
 State - A sales manager can choose its designated area, see the monthly sales evolution, find which Product Categories have sold the most, and in which state are the orders located.
 
