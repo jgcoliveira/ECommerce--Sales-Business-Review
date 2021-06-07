@@ -136,6 +136,7 @@ To that effect, we will need to use the following tables:
 - order_items
 - products
 - product_category_name_translation
+
 Since we want to filter the sales data by state, but only have the state codes, we need to find a table that can provide all the Brazilian states' full names. A quick online search and we are able to find [one](https://en.wikipedia.org/wiki/Federative_units_of_Brazil).
 
 Now that we have a clear strategy, we are ready to start using Power BI. We will perform the following steps:
