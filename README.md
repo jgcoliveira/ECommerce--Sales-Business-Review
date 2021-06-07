@@ -76,7 +76,7 @@ ADD FOREIGN KEY (order_id) REFERENCES orders(order_id);
 
 ## 4. Data Cleaning using MySQL
 
-Now that we have our data stored in mySQL, we can begin to analyse each table by:
+Now that we have our data stored in a SQL database, we can begin to analyse each table by:
 1. Understanding the business context by assessing the logical relationships between data in different columns;
 2. Searching for inconsistencies and data errors, then taking the appropriate corrective measures.
 
