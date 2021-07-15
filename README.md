@@ -160,7 +160,7 @@ Now that we have a clear strategy, we are ready to start using Power BI. We will
 
 We will answer the different business requests by looking at the Power BI graphics.
 
-####Overview
+#### Overview
 
 ![v2 0_Overview_1](https://user-images.githubusercontent.com/78386715/125779553-e5038b82-e917-4cfc-8473-ec73c2d612c3.PNG)
 
@@ -169,7 +169,7 @@ Product Categories - So far the product categories that have achieved over 1M in
 Purchases By State - São Paulo, Rio de Janeiro and Minas Gerais are the states that perform the better in terms of products bought, representing more than half (63%) of overall purchases, with a revenue of over R$ 9.6M.
 Best Selling States - São Paulo alone represents more than half (64%) of total product sales, having shipped close to R$ 10M in products.
 
-####State
+#### State
 
 ![v2 0_State_1](https://user-images.githubusercontent.com/78386715/125779576-6b1c1413-4bbf-499c-9cb7-aab44afbf6cf.PNG)
 
@@ -179,13 +179,13 @@ Monthly Revenue - we’re able to learn that the state’s sales have been fairl
 Product Categories - The most popular product categories are Sports & Leisure, Home appliances and Baby products.
 Sellers - Although Roraima is a North state, all products come from the Southeast region which, by looking at the “Delivery Operations – Delivery Time” page, can result in concerning delivery times.
 
-####Payment Operations
+#### Payment Operations
 
 ![v2 0_Payment_Methods_1](https://user-images.githubusercontent.com/78386715/125780727-ec062705-f023-49c7-be72-03a84264800c.PNG)
 
 Credit card is the most used method of payment, followed by check (boleto), then voucher and debit card. However, the last month saw an increase in the number of payments using debit card, surpassing voucher payments by 26.
 
-####Delivery Operations
+#### Delivery Operations
 
 ![v2 0_Delivery_Average_1](https://user-images.githubusercontent.com/78386715/125781018-05b0c046-488d-4748-9d15-745592380df6.PNG)
 
