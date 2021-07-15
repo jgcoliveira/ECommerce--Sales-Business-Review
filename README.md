@@ -162,24 +162,20 @@ We will answer the different business requests by looking at the Power BI graphi
 
 #### Overview
 
-| ![v2 0_Overview_1](https://user-images.githubusercontent.com/78386715/125779553-e5038b82-e917-4cfc-8473-ec73c2d612c3.PNG) |
-| **Monthly Revenue** - Since initial rollout in Jan 2017 sales have had an overall rising trend, but it has slowed down in the last 5 months, and the last 2 months have been stagnant with less than 1% growth. |
-|:--:| 
-| **Product Categories** - So far the product categories that have achieved over 1M in sales have been Health & Beauty, Watches & Gifts, Bed, Bath & Table, Sports & Leisure and Computer Accessories. |
-|:--:| 
-| **Purchases By State** - São Paulo, Rio de Janeiro and Minas Gerais are the states that perform the better in terms of products bought, representing more than half (63%) of overall purchases, with a revenue of over R$ 9.6M. |
-|:--:| 
-| **Best Selling States** - São Paulo alone represents more than half (64%) of total product sales, having shipped close to R$ 10M in products. |
+![v2 0_Overview_1](https://user-images.githubusercontent.com/78386715/125779553-e5038b82-e917-4cfc-8473-ec73c2d612c3.PNG)
+**Monthly Revenue** - Since initial rollout in Jan 2017 sales have had an overall rising trend, but it has slowed down in the last 5 months, and the last 2 months have been stagnant with less than 1% growth.
+**Product Categories** - So far the product categories that have achieved over 1M in sales have been Health & Beauty, Watches & Gifts, Bed, Bath & Table, Sports & Leisure and Computer Accessories.
+**Purchases By State** - São Paulo, Rio de Janeiro and Minas Gerais are the states that perform the better in terms of products bought, representing more than half (63%) of overall purchases, with a revenue of over R$ 9.6M.
+**Best Selling States** - São Paulo alone represents more than half (64%) of total product sales, having shipped close to R$ 10M in products. |
 
 #### State
 
+Selecting Roraima as an example:
 ![v2 0_State_1](https://user-images.githubusercontent.com/78386715/125779576-6b1c1413-4bbf-499c-9cb7-aab44afbf6cf.PNG)
 
-Selecting Roraima as an example:
-
-Monthly Revenue - we’re able to learn that the state’s sales have been fairly low (below 1k) up to Mar18, where they achieved a 88% increase from the previous month, having contributed to around 23% of total sales so far. 
-Product Categories - The most popular product categories are Sports & Leisure, Home appliances and Baby products.
-Sellers - Although Roraima is a North state, all products come from the Southeast region which, by looking at the “Delivery Operations – Delivery Time” page, can result in concerning delivery times.
+**Monthly Revenue** - we’re able to learn that the state’s sales have been fairly low (below 1k) up to Mar18, where they achieved a 88% increase from the previous month, having contributed to around 23% of total sales so far. 
+**Product Categories** - The most popular product categories are Sports & Leisure, Home appliances and Baby products.
+**Sellers** - Although Roraima is a North state, all products come from the Southeast region which, by looking at the “Delivery Operations – Delivery Time” page, can result in concerning delivery times.
 
 #### Payment Operations
 
@@ -191,9 +187,9 @@ Credit card is the most used method of payment, followed by check (boleto), then
 
 ![v2 0_Delivery_Average_1](https://user-images.githubusercontent.com/78386715/125781018-05b0c046-488d-4748-9d15-745592380df6.PNG)
 
-Average Delivery Time -Roraima, Pará, Alagoas, Amapá e Amazonas (mostly Norte region states) all have a concerning average delivery time. Between Nov17 and Mar18, delivery times were more than 2 weeks, which coincided with the increase of orders during the same period.
+**Average Delivery Time** - Roraima, Pará, Alagoas, Amapá e Amazonas (mostly Norte region states) all have a concerning average delivery time. Between Nov17 and Mar18, delivery times were more than 2 weeks, which coincided with the increase of orders during the same period.
 
 ![v2 0_Delivery_Delays_1](https://user-images.githubusercontent.com/78386715/125781594-ea10cbb2-83d7-4ae3-8bcd-5c2e85865513.PNG)
 
-Number of Delays - São Paulo and Rio de Janeiro both have the biggest revenue and also the biggest number of delays, most of them experienced between Nov17 and Mar18. In the same period, most states also saw an increase in the number of delays, with the exception of states with a low number of purcheses, such as Tocatins, Acre, Alagoas and Sergipe.
+**Number of Delays** - São Paulo and Rio de Janeiro both have the biggest revenue and also the biggest number of delays, most of them experienced between Nov17 and Mar18. In the same period, most states also saw an increase in the number of delays, with the exception of states with a low number of purcheses, such as Tocatins, Acre, Alagoas and Sergipe.
 
