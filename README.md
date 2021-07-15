@@ -162,12 +162,11 @@ We will answer the different business requests by looking at the Power BI graphi
 
 #### Overview
 
-![v2 0_Overview_1](https://user-images.githubusercontent.com/78386715/125779553-e5038b82-e917-4cfc-8473-ec73c2d612c3.PNG)
-
-Monthly Revenue - Since initial rollout in Jan 2017 sales have had an overall rising trend, but it has slowed down in the last 5 months, and the last 2 months have been stagnant with less than 1% growth.
-Product Categories - So far the product categories that have achieved over 1M in sales have been Health & Beauty, Watches & Gifts, Bed, Bath & Table, Sports & Leisure and Computer Accessories.
-Purchases By State - São Paulo, Rio de Janeiro and Minas Gerais are the states that perform the better in terms of products bought, representing more than half (63%) of overall purchases, with a revenue of over R$ 9.6M.
-Best Selling States - São Paulo alone represents more than half (64%) of total product sales, having shipped close to R$ 10M in products.
+| ![v2 0_Overview_1](https://user-images.githubusercontent.com/78386715/125779553-e5038b82-e917-4cfc-8473-ec73c2d612c3.PNG) |
+| **Monthly Revenue** - Since initial rollout in Jan 2017 sales have had an overall rising trend, but it has slowed down in the last 5 months, and the last 2 months have been stagnant with less than 1% growth. |
+| **Product Categories** - So far the product categories that have achieved over 1M in sales have been Health & Beauty, Watches & Gifts, Bed, Bath & Table, Sports & Leisure and Computer Accessories. |
+| **Purchases By State** - São Paulo, Rio de Janeiro and Minas Gerais are the states that perform the better in terms of products bought, representing more than half (63%) of overall purchases, with a revenue of over R$ 9.6M. |
+| **Best Selling States** - São Paulo alone represents more than half (64%) of total product sales, having shipped close to R$ 10M in products. |
 
 #### State
 
